@@ -1,0 +1,28 @@
+body {
+    background-color: #442075;
+}
+h1 {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    text-align: center;
+} 
+
+.Jogos {
+    left: 15%;
+    top: 5%;
+    width: 150px;
+    z-index: 9999;
+  }
+
+  .fliperama2 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .texto {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;   
+  }
