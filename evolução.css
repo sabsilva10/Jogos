@@ -14,7 +14,6 @@ body {
 
 html {
   height: 500vh;
-
 }
 
 .container {
@@ -30,11 +29,25 @@ html {
 }
 
 header {
+  font-weight: bold;
   width: 100%;
-  padding: 60px 4%;
+  padding: 75px 4%;
   position: fixed;
-  top: 0 left: 0
+  top: 0 left: 0;
+  transition: 0.4s;
 }
+
+header.rolagem {
+  background-color: #2d0566;
+  padding: 30px 4%;
+
+}
+
+header.rolagem a, header.rolagem i {
+color: aliceblue;
+}
+
+
 
 header i {
   font-size: 30px;
