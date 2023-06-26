@@ -26,3 +26,12 @@ h1 {
     font-size: 20px;
     text-align: center;   
   }
+
+  input:checked + .checkbox-wrapper  {
+    color: blue;
+  }
+
+  input:checked + .checkbox-wrapper p {
+    font-size: 20px
+
+  }
