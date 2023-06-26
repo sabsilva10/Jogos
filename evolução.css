@@ -65,7 +65,8 @@ h2 {
 .faq-titulo:after {
   content: '+';
   float: right;
-  transition: transform; .3s ease;
+  transition: transform;
+  .3s ease;
 }
 
 .faq-conteudo {
@@ -78,10 +79,17 @@ h2 {
 }
 
 .trigger-input {
-  /* display: none */
+  display: none
 }
 
-.trigger-input:checked + .trigger-wrapper .faq-conteudo {
+.trigger-input:checked+.trigger-wrapper .faq-conteudo {
   display: block;
+}
 
+.trigger-input:checked+.trigger-wrapper .faq-titulo {
+  color: rgb(209, 145, 237)
+}
+
+.trigger-input:checked+.trigger-wrapper .faq-titulo:after {
+transform: rotate(45deg) scale(1.08);
 }
