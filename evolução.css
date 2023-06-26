@@ -1,37 +1,87 @@
 body {
-    background-color: #442075;
+  background-color: #442075;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
-h1 {
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 70px;
-    text-align: center;
-} 
 
 .Jogos {
-    left: 15%;
-    top: 5%;
-    width: 150px;
-    z-index: 9999;
-  }
+  left: 15%;
+  top: 5%;
+  width: 150px;
+  z-index: 9999;
+}
 
-  .fliperama2 {
-    max-width: 100%;
-    height: auto;
-  }
+.fliperama2 {
+  max-width: 100%;
+  height: auto;
+}
 
-  .texto {
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;   
-  }
+h1 {
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  input:checked + .checkbox-wrapper  {
-    color: blue;
-  }
+.texto {
+  text-align: center;
+}
 
-  input:checked + .checkbox-wrapper p {
-    font-size: 20px
+.wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+}
 
-  }
+h2 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 60px;
+}
+
+.lista-item {
+  background-color: #1b1237;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10 px;
+  box-shadow: 0 2px 6px rgba(50, 50, 90, .1);
+
+}
+
+.faq-titulo {
+  cursor: pointer;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.faq-titulo:before {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 24px;
+  margin-right: 10px;
+  background: #442075;
+}
+
+.faq-titulo:after {
+  content: '+';
+  float: right;
+  transition: transform; .3s ease;
+}
+
+.faq-conteudo {
+  padding: 10px;
+  color: ;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.4em;
+  display: none;
+
+}
+
+.trigger-input {
+  /* display: none */
+}
+
+.trigger-input:checked + .trigger-wrapper .faq-conteudo {
+  display: block;
+
+}
