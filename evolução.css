@@ -64,14 +64,11 @@ h2 {
 
 .faq-titulo:after {
   content: '+';
-  float: right;
-  transition: transform;
-  .3s ease;
+  float: right
 }
 
 .faq-conteudo {
   padding: 10px;
-  color: ;
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.4em;
   display: none;
