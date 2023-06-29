@@ -1,3 +1,9 @@
+
+body {
+    overflow: hidden;
+  }
+
+
 /* menu */
 
 * {
@@ -24,24 +30,13 @@ html {
 }
 
 header {
+    background-color: #2d0566;
     width: 100%;
     padding: 40px 4%;
     position: fixed;
     top: 0 left: 0;
     transition: 0.4s;
 }
-
-header.rolagem {
-    background-color: #2d0566;
-    padding: 30px 4%;
-
-}
-
-header.rolagem a,
-header.rolagem i {
-    color: aliceblue;
-}
-
 
 header i {
     font-size: 30px;
@@ -93,8 +88,8 @@ body {
 
 
 .content {
-    height: 610px;
-    width: 1100px;
+    height: 555px;
+    width: 1000px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
